@@ -34,21 +34,21 @@
       <img src="contact.png" alt="">
     </div>
       </div>
-      <form action="POST" data-netlify="true">
+      <form action="POST" data-netlify="true" name="form">
         <h1>Contact Us</h1>
         <div class="info">
           <label for="">Full name:</label><br>
           <input class="fname" type="text" name="name" required>
           <label for="">Email:</label><br>
-          <input type="email" name="name" required>
+          <input type="email" name="email" required>
           <label for="">Phone number:</label><br>
-          <input type="number" name="name"  required>
+          <input type="tel" name="tel"  required>
         </div>
         <p>Message:</p>
         <div>
-          <textarea rows="4" required></textarea>
+          <textarea rows="4" required name="text"></textarea>
         </div>
-        <button type="submit" href="/">Submit</button>
+        <button type="submit">Submit</button>
       </form>
     </div>
     <footer>
